@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html Lang="en-US">
+  <head>
+    <meta charset="utf-8">
+	<title>JavaJam Coffee House Jobs</title>
+    <link rel="stylesheet" href="css/javajam.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <div id="wrapper">
+    <header> 
+	    <h1>JavaJam Coffee House</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="music.html">Music</a></li>
+        <li><a href="jobs.html">Jobs</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2>Jobs at JavaJam</h2>
+      <p>
+	    Want to work at JavaJam? Fill out the form below to start your application.<br>
+		Required fields are marked with an asterisk *.
+	  </p>
+	  <form action="https://webdevbasics.net/scripts/javajam.php" method="post">
+	    <label for="myName">*Name:</label>
+		<input type="text" name="myName" id="myName" required="">
+		<label for="myEmail">*E-mail:</label>
+		<input type="email" name="myEmail" id="myEmail" required="">
+		<label for="myStart">Start Date:</label>
+		<input type="date" name="myStart" id="myStart">
+		<label for="myExperience">*Experience:</label>
+		<textarea name="myExperience" id="myExperience" required=""></textarea>
+		<input type="submit" Value="Apply Now">
+	  </form>
+    </main>
+    <footer>
+      <small>Copyright &copy; 2019 JavaJam Coffee House<br>
+      <a href="mailto:tristen@tomczak.com">tristen@tomczak.com</a></small>
+    </footer>
+  </div>
+  </body>
+</html>
